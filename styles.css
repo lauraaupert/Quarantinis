@@ -66,7 +66,7 @@ p {
 .demo-blog .demo-blog__posts {
   background-repeat: no-repeat;
   max-width: 1200px;
-  padding-top: 10%;
+  padding-top: 5%;
   padding-right: 10%;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -118,7 +118,7 @@ button.mdl-button {
   opacity: 1;
 }
 .demo-blog.mdl-layout .mdl-layout__content {
-  padding-top: 150px;
+  padding-top: 0px;
   position: relative;
   -webkit-overflow-scrolling: touch;
 }
@@ -140,13 +140,13 @@ button.mdl-button {
 }
 #intoxicated {
   align-self: center;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
 }
 
 #title {
  width: 80%;
  height: auto;
- margin-bottom: 20%;
+ /*margin-bottom: 20%;*/
 }
 
 .field {

@@ -25,6 +25,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-orange.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/balloon-css/balloon.min.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -45,23 +46,9 @@
   <body>
     <div class="demo-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
       <div><img src="images/title-image.png" id="title" alt="title-image-quarantinis"></div>
-  
       <main class="mdl-layout__content">
         <div class="demo-blog__posts mdl-grid">
         
-
-          <!--Instructions-->
-          <div class="mdl-card mdl-cell mdl-cell--12-col mdl-cell--12-col-desktop" id="intoxicated">
-            <h1>Until you're inoculated, stay intoxicated!</h1>
-            <div id="instructions">
-              <p>2020 was a real cluster. We held it together only with considerable help from adult beverages. Netflix, Instacart, and Franzia kept us from losing it under lockdown with hyperactive children, pandemic puppies, and partners we'd like to get some social distance from.</p>
-
-              <p>Sidewalks became social clubs. Video chat replaced water-cooler gossip. And in cul-de-sacs across the country, driveway drinking helped parents avoid costly virtual therapy and coronadivorce. Thanks, alcohol!</p>
-                
-              <p>Our app keeps the party going. Quarantine and chill to some smooth tunes from the Pandemic Player, and shelter in place with the perfect cocktail. You can search for familiar favorites or click "Random Cocktail" to try something new. Think of it as a slot machine for booze. So put on your best velour track suit, kick back in the La-Z-Boy, and raise your glass to the new year. Because it's 5 o'clock somewhere, and 2020 is over everywhere.</p>
-            </div>
-          </div>
-
           <!-- BEGIN COCKTAIL SEARCH CARD -->
           <div class="mdl-card  mdl-cell mdl-cell--12-col mdl-cell--6-col-desktop">
             <div class="mdl-card__media mdl-color-text--grey-50 cocktail-pic">
@@ -91,7 +78,7 @@
 
           <!--BEGIN INGREDIENTS CARD-->
           <div class="mdl-card something-else mdl-cell mdl-cell--12-col mdl-cell--6-col-desktop ingredients-card" style="position: relative;">
-            <button id="plus-sign" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent">
+            <button id="plus-sign" aria-label="Add this cocktail to your favorites" data-balloon-pos="up" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent">
               <i class="material-icons mdl-color-text--white" role="presentation">add</i>
               <span class="visuallyhidden">add</span>
             </button>
@@ -171,6 +158,14 @@
             </iframe>        
           </div>
         </div>
+                  <!--Instructions-->
+                  <div class="mdl-card mdl-cell mdl-cell--12-col mdl-cell--12-col-desktop" id="intoxicated">
+                    <h1>Until you're inoculated, stay intoxicated!</h1>
+                    <div id="instructions">                
+                      <p><span style="font-style: italic; font-weight: bold; color:#ffb308;">Quarantinis</span> keeps the party going. Quarantine and chill to some smooth tunes from the Pandemic Player, and shelter in place with the perfect cocktail. You can search for familiar favorites or click "Random Cocktail" to try something new. Think of it as a slot machine for booze. So put on your best velour track suit, kick back in the La-Z-Boy, and raise your glass to the new year. Because it's 5 o'clock somewhere, and 2020 is over everywhere.</p>
+                    </div>
+                  </div>
+        
 
         <!--FOOTER-->
           <footer class="mdl-mini-footer">Disclaimer: Drink responsibly. If you choose to enjoy a quarantini or three during a work-related Zoom meeting (and we wholeheartedly encourage day drinking), keep your fly zipped at all times. Quarantinis accepts no responsibility for anything you might say or do while you think you're off camera or on mute.
