@@ -17,6 +17,8 @@ Powerpoint : https://drive.google.com/file/d/16C3_LSZ43e-qrHRd2ar0Y34mUE58DyYK/v
 
 Most of us held it together in 2020 only with considerable help from adult beverages. We've designed an app to keep the party going in 2021. Quarantine and chill to some smooth tunes from the Pandemic Player, and shelter in place with the perfect cocktail. Search for familiar favorites, or click "Random Cocktail" to try something new. Join us in raising a glass to the new year. Until inoculation is available, intoxication will see us through.
 
+![image](https://user-images.githubusercontent.com/73617474/104407317-53a3ce00-552f-11eb-81ef-2d305118ebae.png)
+
 #FEATURES
 
 ##Alcohol
