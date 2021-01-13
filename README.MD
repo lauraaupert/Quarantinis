@@ -35,6 +35,8 @@ When you find a new go-to beverage, click the plus sign to add the drink to your
 ##Pandemic Playlist
 No cocktail hour is complete, on Zoom or otherwise, without a little music to set the mood. Choose from a selection of jazz, bossa, instrumental, or Christmas songs. (Yeah, we know...Christmas is over. But months and days have become irrelevant, and if ever we needed a little Christmas spirit, now's the time.) Chill to the rhythm of Tito Puente or Joao Gilberto, sip a Culto a la Vida, and let _cuarentena_ take you away (after you post it on Insta..._obviously_).
 
+![image](https://user-images.githubusercontent.com/73617474/104407485-ada49380-552f-11eb-9cd9-a08675320d0f.png)
+
 #PROJECT REQUIREMENTS
 
 ##Technical Criteria
